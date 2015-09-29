@@ -1,0 +1,2 @@
+org\test\boot\security\SecurityConfiguration.class
+org\test\boot\security\service\UserValidateService.class

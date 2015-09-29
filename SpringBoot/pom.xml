@@ -12,9 +12,9 @@
 	    <relativePath /> <!-- lookup parent from repository -->
   </parent>
 	
-	
+
   <modules>
-  	<module>../SpringBootData</module>
+  	<module>SpringBootData</module>
   	<module>SpringBootSecurity</module>
   </modules>
 </project>

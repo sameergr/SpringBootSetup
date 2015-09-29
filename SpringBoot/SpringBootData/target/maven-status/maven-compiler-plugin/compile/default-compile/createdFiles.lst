@@ -1,0 +1,16 @@
+org\test\boot\controller\HibernateController.class
+org\test\boot\template\DepartmentTemplate.class
+org\test\boot\controller\HomeController.class
+org\test\model\Person.class
+org\test\hibernate\repositories\DepartmentRepository.class
+org\test\config\HibernateConfiguration.class
+org\test\service\DepartmentHibernateService.class
+org\test\model\Department.class
+org\test\boot\TestBootApplication.class
+org\test\boot\controller\JpaController.class
+org\test\boot\ServletInitializer.class
+org\test\boot\exception\BootExceptionHandler.class
+org\test\service\DepartmentJpaService.class
+org\test\jpa\repositories\DepartmentJpaRepository.class
+org\test\config\JpaConfiguration.class
+org\test\boot\exception\CustomSqlException.class
