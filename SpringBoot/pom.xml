@@ -16,5 +16,6 @@
   <modules>
   	<module>SpringBootData</module>
   	<module>SpringBootSecurity</module>
+    <module>SpringBootSocial</module>
   </modules>
 </project>

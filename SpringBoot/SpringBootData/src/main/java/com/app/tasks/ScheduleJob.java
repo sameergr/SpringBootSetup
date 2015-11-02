@@ -10,7 +10,6 @@ public class ScheduleJob
    
    public ScheduleJob(ThreadPoolTaskExecutor taskExcecuter)
    {
-      System.out.println("=====> instance created");
       this.taskExecuter = taskExcecuter;  
    }
    

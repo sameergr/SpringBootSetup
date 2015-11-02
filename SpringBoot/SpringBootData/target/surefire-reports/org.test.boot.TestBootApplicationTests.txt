@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.test.boot.TestBootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.618 sec - in org.test.boot.TestBootApplicationTests

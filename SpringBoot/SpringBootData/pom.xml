@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.test.boot</groupId>
-	<artifactId>SpringBootData</artifactId>
+	<artifactId>SpringBootMVC</artifactId>
 	<packaging>war</packaging>
 
-	<name>TestBoot</name>
+	<name>SpringBootMVC</name>
 	<description>Demo project for Spring Boot</description>
 
 	

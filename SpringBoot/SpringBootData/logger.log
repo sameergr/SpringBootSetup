@@ -679,3 +679,157 @@ Caused by: java.lang.IllegalArgumentException: null
 16:30:54.289 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
 16:30:54.355 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
 16:30:54.359 [main] INFO  org.test.boot.TestBootApplication - Started TestBootApplication in 15.489 seconds (JVM running for 16.567)
+12:27:53.671 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+12:27:53.798 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@75d7d567, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2cfb99a2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a2371c0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d011211, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@614951ff]
+12:27:54.521 [main] INFO  o.test.boot.TestBootApplicationTests - Starting TestBootApplicationTests on Sameer with PID 6720 (started by Sameer Oodles in C:\Users\Sameer-Oodles\Desktop\Spring Boot Setup\trunk\SpringBoot\SpringBootData)
+12:27:54.755 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2e71f06c: startup date [Thu Oct 29 12:27:54 IST 2015]; root of context hierarchy
+12:27:57.153 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+12:27:58.077 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+12:27:58.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.ProxyAsyncConfiguration' of type [class org.springframework.scheduling.annotation.ProxyAsyncConfiguration$$EnhancerBySpringCGLIB$$8711fa25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.420 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.SchedulingConfiguration' of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$e04304ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.640 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6fed81e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.667 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.681 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.694 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:27:58.902 [main] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+12:27:59.402 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+12:27:59.480 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+12:27:59.717 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.10.Final}
+12:27:59.721 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+12:27:59.724 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+12:28:00.375 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+12:28:01.537 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:28:01.889 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+12:28:02.704 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+12:28:02.704 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+12:28:02.714 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+12:28:03.041 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.department
+12:28:03.042 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, dept_name, version]
+12:28:03.042 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+12:28:03.042 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+12:28:03.163 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.person
+12:28:03.164 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, persons_id, address, name, salary_id]
+12:28:03.165 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n]
+12:28:03.165 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n, primary]
+12:28:03.168 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+12:28:03.415 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+12:28:03.426 [main] INFO  o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+12:28:03.426 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+12:28:03.449 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+12:28:03.450 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+12:28:03.478 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+12:28:03.493 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.department
+12:28:03.494 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, dept_name, version]
+12:28:03.494 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+12:28:03.494 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+12:28:03.512 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.person
+12:28:03.512 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, persons_id, address, name, salary_id]
+12:28:03.513 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n]
+12:28:03.513 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n, primary]
+12:28:03.513 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+12:28:05.240 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService  'threadPoolTaskExecutor'
+12:28:05.583 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e45b89d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fd969ef, org.springframework.security.web.header.HeaderWriterFilter@51e1f45d, org.springframework.security.web.authentication.logout.LogoutFilter@e0aea2b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a897294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63dcea20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53e668b7, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@b84a4f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@135b8c2f, org.springframework.security.web.session.SessionManagementFilter@51095b9, org.springframework.security.web.access.ExceptionTranslationFilter@7ab01c86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50074d62]
+12:28:06.228 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2e71f06c: startup date [Thu Oct 29 12:27:54 IST 2015]; root of context hierarchy
+12:28:06.375 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hibernate/findallDept],methods=[GET]}" onto public java.lang.Iterable<java.lang.Object> org.test.boot.controller.HibernateController.findAllDepartment()
+12:28:06.376 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hibernate/saveDept],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.test.model.Department> org.test.boot.controller.HibernateController.saveDepartment(org.test.model.Department)
+12:28:06.377 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.test.boot.controller.HomeController.getLoginPage(boolean)
+12:28:06.377 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/home],methods=[GET]}" onto public java.lang.String org.test.boot.controller.HomeController.getHomePage()
+12:28:06.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/delete/model],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.test.boot.controller.JpaController.deleteDepartmentModel()
+12:28:06.380 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/save],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.test.model.Department> org.test.boot.controller.JpaController.saveDepartment()
+12:28:06.380 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/delete],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.test.boot.controller.JpaController.deleteDepartment() throws org.test.boot.exception.CustomSqlException
+12:28:06.380 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/update],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Long> org.test.boot.controller.JpaController.updateDepartment()
+12:28:06.381 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/list],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.test.model.Department>> org.test.boot.controller.JpaController.departmentList(java.util.List<org.test.model.Department>)
+12:28:06.386 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:28:06.387 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+12:28:06.453 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:28:06.454 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:28:06.524 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in bootExceptionHandler
+12:28:06.614 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:28:07.191 [main] INFO  o.test.boot.TestBootApplicationTests - Started TestBootApplicationTests in 13.117 seconds (JVM running for 15.388)
+12:28:07.244 [Thread-1] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@2e71f06c: startup date [Thu Oct 29 12:27:54 IST 2015]; root of context hierarchy
+12:28:07.269 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'threadPoolTaskExecutor'
+12:28:07.276 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:40:03.862 [main] INFO  org.test.boot.TestBootApplication - Starting TestBootApplication on Sameer with PID 3296 (started by Sameer Oodles in C:\Users\Sameer-Oodles\Desktop\Spring Boot Setup\trunk\SpringBoot\SpringBootData)
+20:40:04.080 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59e7f4fe: startup date [Thu Oct 29 20:40:04 IST 2015]; root of context hierarchy
+20:40:06.099 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+20:40:06.826 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+20:40:06.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.ProxyAsyncConfiguration' of type [class org.springframework.scheduling.annotation.ProxyAsyncConfiguration$$EnhancerBySpringCGLIB$$9174abd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:07.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.scheduling.annotation.SchedulingConfiguration' of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$eaa5b6ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:07.247 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a503392] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:07.269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:07.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:07.300 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:40:08.176 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+20:40:08.521 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+20:40:08.524 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.23
+20:40:09.342 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20:40:09.350 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:40:09.350 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5285 ms
+20:40:11.500 [localhost-startStop-1] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@707a95d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@42bf8144, org.springframework.security.web.header.HeaderWriterFilter@573e48d4, org.springframework.security.web.authentication.logout.LogoutFilter@51a5bec1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f8c78e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1131c015, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@592b94df, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@20f9b6c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41340, org.springframework.security.web.session.SessionManagementFilter@1e32132f, org.springframework.security.web.access.ExceptionTranslationFilter@1c660dd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a30322b]
+20:40:11.614 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:40:11.622 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:40:11.622 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:40:11.622 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+20:40:11.740 [main] INFO  o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+20:40:11.943 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+20:40:11.959 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20:40:12.115 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.10.Final}
+20:40:12.131 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+20:40:12.131 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+20:40:12.484 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+20:40:12.896 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:40:13.179 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+20:40:13.693 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+20:40:13.693 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+20:40:13.707 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+20:40:13.852 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.department
+20:40:13.852 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, dept_name, version]
+20:40:13.852 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+20:40:13.852 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+20:40:13.927 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.person
+20:40:13.927 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, persons_id, address, name, salary_id]
+20:40:13.927 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n]
+20:40:13.928 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n, primary]
+20:40:13.929 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+20:40:14.128 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20:40:14.141 [main] INFO  o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+20:40:14.141 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+20:40:14.172 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+20:40:14.172 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+20:40:14.180 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+20:40:14.198 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.department
+20:40:14.199 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, dept_name, version]
+20:40:14.199 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+20:40:14.199 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+20:40:14.219 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: testdb.person
+20:40:14.219 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [id, persons_id, address, name, salary_id]
+20:40:14.219 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n]
+20:40:14.219 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_salary, fk_4bowbf7bosbxwmd71u579km1n, primary]
+20:40:14.220 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+20:40:14.694 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService  'threadPoolTaskExecutor'
+20:40:14.975 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59e7f4fe: startup date [Thu Oct 29 20:40:04 IST 2015]; root of context hierarchy
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hibernate/findallDept],methods=[GET]}" onto public java.lang.Iterable<java.lang.Object> org.test.boot.controller.HibernateController.findAllDepartment()
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hibernate/saveDept],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.test.model.Department> org.test.boot.controller.HibernateController.saveDepartment(org.test.model.Department)
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/home],methods=[GET]}" onto public java.lang.String org.test.boot.controller.HomeController.getHomePage()
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.test.boot.controller.HomeController.getLoginPage(boolean)
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/list],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<org.test.model.Department>> org.test.boot.controller.JpaController.departmentList(java.util.List<org.test.model.Department>)
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/save],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.test.model.Department> org.test.boot.controller.JpaController.saveDepartment()
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/update],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Long> org.test.boot.controller.JpaController.updateDepartment()
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/delete],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.test.boot.controller.JpaController.deleteDepartment() throws org.test.boot.exception.CustomSqlException
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jpa/delete/model],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.test.boot.controller.JpaController.deleteDepartmentModel()
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:40:15.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+20:40:15.179 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:40:15.179 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:40:15.257 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in bootExceptionHandler
+20:40:15.304 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:40:15.757 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:40:15.892 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:40:15.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:40:15.922 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:40:15.974 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+20:40:15.978 [main] INFO  org.test.boot.TestBootApplication - Started TestBootApplication in 12.516 seconds (JVM running for 13.558)
